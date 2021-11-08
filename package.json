@@ -7,7 +7,8 @@
     "test": "mocha --require @babel/register",
     "prettier": "prettier --write --bracket-spacing --semi --print-width 120 --arrow-parens always --single-quote src/index.js",
     "eslint": "eslint",
-    "jsdoc": "jsdoc"
+    "jsdoc": "jsdoc",
+    "prepare":"husky install"
   },
   "keywords": [],
   "author": "",
