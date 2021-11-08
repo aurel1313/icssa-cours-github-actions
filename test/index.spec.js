@@ -118,7 +118,7 @@ describe("Pencil Durability Kata Tests", () => {
     });
 
     it("Disallows pencil to be sharpened after length reaches 0", () => {
-      const pencil = new Pencil(50, 2);
+      const pencil = new Pencil(50, 0);
 
       pencil.sharpen();
       pencil.sharpen();
