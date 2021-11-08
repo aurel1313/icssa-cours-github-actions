@@ -1,4 +1,4 @@
-import { expect } from "chai"
+import { expect } from "chai";
 import Pencil from "../src/";
 
 describe("Pencil Durability Kata Tests", () => {
@@ -94,7 +94,7 @@ describe("Pencil Durability Kata Tests", () => {
     });
 
     it("Decreases length of pencil by 1 after being sharpened with an initial length of 50", () => {
-      const pencil = new Pencil(50, 50);
+      const pencil = new Pencil(49, 49);
 
       pencil.sharpen();
 
