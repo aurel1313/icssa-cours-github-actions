@@ -104,7 +104,7 @@ describe("Pencil Durability Kata Tests", () => {
     });
 
     it("Decreases length by 5 after being sharpened 5 times with an initial length of 50", () => {
-      const pencil = new Pencil(50, 50);
+      const pencil = new Pencil(50, 45);
 
       pencil.sharpen();
       pencil.sharpen();
