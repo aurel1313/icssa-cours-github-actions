@@ -11,7 +11,7 @@ export default class Pencil {
   }
 
   getPencilDurability() {
-    return durability;
+    return this.durability;
   }
 
   getPencilLength() {
