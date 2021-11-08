@@ -24,7 +24,7 @@ export default class Pencil {
 
   updatePencilDurability(character) {
     if (character !== ' ') {
-      character === character.toLowerCase() ? (this.durability += 1) : (this.durability -= 2);
+      character === character.toLowerCase() ? (this.durability -= 0) : (this.durability -= 2);
     }
   }
 
